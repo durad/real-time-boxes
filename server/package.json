@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --notify=false --respawn --ignore-watch node_modules --transpile-only -- ./src/server.ts"
+  },
+  "dependencies": {
+    "socket.io": "^2.2.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^2.1.2",
+    "ts-node-dev": "^1.0.0-pre.40"
+  }
+}
