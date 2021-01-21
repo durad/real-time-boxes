@@ -7,7 +7,7 @@
     "start": "tsnd --notify=false --respawn --ignore-watch node_modules --transpile-only -- ./src/server.ts"
   },
   "dependencies": {
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "typescript": "^3.5.2"
   },
   "devDependencies": {
